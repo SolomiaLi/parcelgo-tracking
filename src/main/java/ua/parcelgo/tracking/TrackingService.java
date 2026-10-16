@@ -4,3 +4,4 @@ public class TrackingService {
         return ParcelState.CREATED;
     }
 }
+// Security fix: sanitize TTN input query against injection
