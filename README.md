@@ -7,11 +7,11 @@
 
 ---
 
-## 📌 Опис репозиторію
+## Опис репозиторію
 
 Цей репозиторій містить практичну емуляцію **Git Branching Strategy (GitHub Flow + Release Branches)** для доменного мікросервісу **`parcelgo-tracking`** інформаційної системи логістичної компанії **«ParcelGo»**.
 
-### 🌟 Ключові концепції реалізації:
+### Ключові концепції реалізації:
 - **SDLC:** Essential SAFe (Scaled Agile Framework) — 5 крос-функціональних команд в Agile Release Train (ART), 4 Program Increments (PI) по 10 тижнів.
 - **Міграція:** Strangler Fig Pattern + Debezium CDC для переходу зі старої системи без зупинки логістики (Zero Downtime, NFR-19, NFR-20).
 - **Архітектура:** Event Sourcing (ASR-1), брокер Apache Kafka (ASR-2), ідемпотентність операцій (ASR-3, NFR-9).
@@ -21,7 +21,7 @@
 
 ---
 
-## 🌿 Структура гілок та релізів у репозиторії
+## Структура гілок та релізів у репозиторії
 
 Репозиторій демонструє повний виробничий життєвий цикл релізу:
 
@@ -36,7 +36,7 @@
 
 ---
 
-## 📜 Журнал історії Git (`git log --graph`)
+## Журнал історії Git (`git log --graph`)
 
 ```text
 *   113c25e (HEAD -> main) merge: apply emergency hotfix/1.0.1 patch into main branch
